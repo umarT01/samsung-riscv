@@ -1,0 +1,32 @@
+MEM[0] <= 32'h02208300;        
+ Add r6,r1,r2.(i1)
+
+MEM[1] <= 32'h02209380;         
+Sub r7,r1,r2.(i2)
+
+MEM[2] <= 32'h0230a400;         
+AND r8,r1,r3.(i3)
+
+MEM[3] <= 32'h02513480;         
+OR r9,r2,r5.(i4)
+
+MEM[4] <= 32'h0240c500;         
+XOR r10,r1,r4.(i5)
+
+MEM[5] <= 32'h02415580;         
+Slt r11,r2,r4.(i6)
+
+MEM[6] <= 32'h00520600;         
+Addi r12,r4,5.(i7)
+
+MEM[7] <= 32'h00209181;         
+(Store word for memory)SW r3,r1,2.(i8)
+
+MEM[8] <= 32'h00208681;         
+(Load word for memory)LW r13,r1,2.(i9)
+
+MEM[9] <= 32'h00f00002;         
+(Branch if equal)BEQ r0,r0,15.(i10)
+
+MEM[27] <= 32'h01409002;         
+(Branch not equal)BNE r0,r1,20.(i12)
