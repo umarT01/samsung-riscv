@@ -1,0 +1,14 @@
+Solar tracking system
+
+specification
+
+Types: Single-axis (rotates on one axis) and dual-axis (rotates on two axes) trackers.
+Energy Gain: Single-axis trackers increase efficiency by 25-35%, dual-axis by 35-45%.
+Motor Power: Typically consumes 2-10W for movement.
+Panel Capacity: Supports panels up to 2m², depending on design.
+Tracking Error: Single-axis ≤1°, dual-axis <0.1°.
+Control System: Microcontroller (e.g., Arduino) controls motors based on sensor data.
+Sensors: LDRs or optical sensors detect sunlight for tracking adjustments.
+Tilt Angle: Single-axis: 0°-60°, dual-axis: ±90°.
+Power Supply: Typically 12V or 24V DC.
+Material: Frames made of durable materials like aluminum or stainless steel.
